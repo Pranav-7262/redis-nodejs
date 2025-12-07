@@ -13,7 +13,7 @@ async function init() {
   //   console.log(res5); // >>> 1
   //   const res6 = await client.sismember("bikes:racing:france", "bike:20");
   //   console.log(res6); // >>> 0
-  //   const res7 = await client.scard("bikes:racing:france");
-  //   console.log(res7); // 6 count
+  const res7 = await client.scard("bikes:racing:france");
+  console.log(res7); // 6 count
 }
 init();
