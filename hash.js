@@ -41,5 +41,7 @@ async function init() {
   console.log(res6); // 5072
   const res7 = await client.hincrby("bike:1", "price", -100);
   console.log(res7); // 4972
+  // const res8 = await client.hincrby("bike:1", "price", 100);
+  // console.log(res8);
 }
 init();
